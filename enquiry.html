@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <body style="background-color:rgb(176, 230, 198);"></body><h1>Project Enquiry</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
+        <li><a href="contactUS.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Request a Quote</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required />
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email" placeholder="example@email.com" required />
+
+        <label for="service">Service Needed</label>
+        <select id="service" name="service">
+          <option value="civils">Civil Engineering & Infrastructure</option>
+          <option value="building">Building & Commercial</option>
+          <option value="industrial">Industrial & Mining</option>
+        </select>
+
+        <label for="details">Project Details</label>
+        <textarea id="details" name="details" rows="6" placeholder="Provide scope, location, timeline..."></textarea>
+
+        <button type="submit">Submit Enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 WBHO Construction. All rights reserved.</p>
+  </footer>
+</body>
+</html>
